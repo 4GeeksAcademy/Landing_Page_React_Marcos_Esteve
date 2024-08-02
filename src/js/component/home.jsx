@@ -1,26 +1,41 @@
 import React from "react";
 
 //include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
 
 //create your first component
-const Home = () => {
-	return (
-		<div className="text-center">
-			<h1 className="text-center mt-5">Hello Rigo!</h1>
-			<p>
-				<img src={rigoImage} />
-			</p>
-			<a href="#" className="btn btn-success">
-				If you see this green button... bootstrap is working...
-			</a>
-			<p>
-				Made by{" "}
-				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
-				love!
-			</p>
-		</div>
-	);
+const styleNavBar = {
+    background: "black",
+};
+const styleItems = {
+	color: "white"
 };
 
-export default Home;
+const NavBar = () => {
+    return (
+    <nav className="navbar navbar-expand-lg bg-body-tertiary" style = {styleNavBar}>
+        <div className="container">
+          <a className="navbar-brand" href="#" style = {styleItems} >Start Bootstrap</a>
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse justify-content-end" id="navbarNav" >
+            <ul className="navbar-nav">
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="#" style = {styleItems}>Home</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#" style = {styleItems}>Services</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#" style = {styleItems}>Pricing</a>
+              </li>
+			        <li className="nav-item">
+                <a className="nav-link" href="#" style = {styleItems}>Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>)
+};
+
+export default NavBar;
