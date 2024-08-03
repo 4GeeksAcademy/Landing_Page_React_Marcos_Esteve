@@ -10,10 +10,10 @@ const CardHtml = (props) => {
     return (
         <div className="card" style={cardStyle}>
             <img src={props.imageurl} className="card-img-top" alt="Range Rover Sport SVR"/>
-            <div className="card-body" >
+            <div className="card-body d-flex flex-column " >
                 <h5 className="card-title">{props.title}</h5>
                 <p className="card-text">{props.description}</p>
-                <a href={props.link} className="btn btn-primary" target = "_blank">{props.buttonlabel}</a>
+                <a href={props.link} className="btn btn-primary mt-auto w-auto align-self-start" target = "_blank">{props.buttonlabel}</a>
             </div>
         </div>
     )

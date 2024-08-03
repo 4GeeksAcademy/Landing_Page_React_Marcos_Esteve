@@ -18,6 +18,7 @@ const MyFinalApp = () => {
                         description = {"Range Rover Sport de nueva generacioón. Un acabado lujoso para el todoterreno de la marca con la que firma un V8 de 575cv."}
                         buttonlabel = {"Range Rover Sport"}
                         link = {"https://www.landrover.es/range-rover/range-rover-sport/index.html"}
+                        
                         /> 
                     </div>
                     <div className="col-3 mb-4">
@@ -27,15 +28,17 @@ const MyFinalApp = () => {
                         description = {"Las cabañas en los árboles han cogido polularidad en los últimos años. Es una sitio donde puedes fusionar el confort y el relax."}
                         buttonlabel = {"Reservar Cabañita"}
                         link = {"https://cabanitasdelbosque.com/es"}
+                        
                         /> 
                     </div>
                     <div className="col-3 mb-4">
                     <CardHtml 
                         title = {"John Deere 9RX"}
-                        imageurl={"https://www.deere.es/assets/images/region-2/our-company/news/press-releases/2024/01_9RX_830_with_2730_Combination_Ripper.jpg"}
+                        imageurl={"https://www.agriculture.com/thmb/Wm6j2b6gDFiUz1c-Ys0NvGo01A4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/JohnDeere9RXtractor2-11bc703e144c4cb39726bd60b43b0483.JPG"}
                         description = {"El nuevo John Deere 9RX. Motor de 13.6 L. y 640cv nominales. Ha batido el record de Hectáreas labradas en 740 en 24h. Con sólo un consumo de 3,4 l/ha de gasoil."}
                         buttonlabel = {"Tractor 9RX"}
                         link = {"https://www.deere.es/es/tractores/grande/serie-9/9rx830/"}
+                        
                         /> 
                     </div>
                     <div className="col-3 mb-4">
@@ -45,6 +48,7 @@ const MyFinalApp = () => {
                         description = {"Cosechadora John Deere X9. 100 toneladas de capacidad de recoleción por hora gracias a su diseño de motor de 700cv. Disponible con hasta 15 metros de corte."}
                         buttonlabel = {"Cosechadora X9"}
                         link = {"https://www.deere.es/es/cosechadoras/serie-x/"}
+                        
                         /> 
                     </div>
                 </div>
