@@ -50,6 +50,7 @@ const MyFinalApp = () => {
                         link = {"https://www.deere.es/es/cosechadoras/serie-x/"}
                         
                         /> 
+                        
                     </div>
                 </div>
             </div>        
