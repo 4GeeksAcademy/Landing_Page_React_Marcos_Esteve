@@ -1,5 +1,5 @@
 import React from "react";
-import NavBar from "./home"
+import NavBar from "./navBar"
 import JumBotron from "./jumbotron"
 import CardHtml from "./card"
 
@@ -11,7 +11,7 @@ const MyFinalApp = () => {
             <JumBotron/>
             <div className="container">
                 <div className="row">
-                    <div className="col-3 mb-4">
+                    <div className="col-12 col-md-6 col-lg-3  mb-4">
                     <CardHtml 
                         title = {"Range Rover Sport"}
                         imageurl={"https://cdn.drivek.com/configurator-imgs/cars/es/Original/LAND-ROVER/RANGE-ROVER-SPORT/41091_SUV-5-DOORS/land-rover-range-rover-sport-front-view.jpg"}
@@ -21,7 +21,7 @@ const MyFinalApp = () => {
                         
                         /> 
                     </div>
-                    <div className="col-3 mb-4">
+                    <div className="col-12 col-md-6 col-lg-3 col-3 mb-4">
                     <CardHtml 
                         title = {"Cabañita de los árboles"}
                         imageurl={"https://imagenes.elpais.com/resizer/v2/ATJ4ELVFYZOPNGW46TINRKI76Q.jpg?auth=e2f684f0974018bffb56ec68877c1f851254874eccef401d02ce528c1f338095&width=1200"}
@@ -31,7 +31,7 @@ const MyFinalApp = () => {
                         
                         /> 
                     </div>
-                    <div className="col-3 mb-4">
+                    <div className="col-12 col-md-6 col-lg-3  mb-4">
                     <CardHtml 
                         title = {"John Deere 9RX"}
                         imageurl={"https://www.agriculture.com/thmb/Wm6j2b6gDFiUz1c-Ys0NvGo01A4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/JohnDeere9RXtractor2-11bc703e144c4cb39726bd60b43b0483.JPG"}
@@ -41,7 +41,7 @@ const MyFinalApp = () => {
                         
                         /> 
                     </div>
-                    <div className="col-3 mb-4">
+                    <div className="col-12 col-md-6 col-lg-3  mb-4">
                     <CardHtml 
                         title = {"Cosechadora Serie X-1100"}
                         imageurl={"https://www.deere.es/assets/images/region-2/products/combines/x-series/0_r2g017223_large_large_aa906642d05c2af0aa825faab59106fa80fbf876.jpg"}
