@@ -52,8 +52,14 @@ const MyFinalApp = () => {
                         /> 
                         
                     </div>
+                
                 </div>
-            </div>        
+            </div>  
+            <footer className="footer mt-auto py-3 bg-dark text-center">
+                <div className="container">
+                    <span className="text-light">© 2024 Your Company. All rights reserved.</span>
+                </div>
+            </footer>	      
         </div>
         
     );
